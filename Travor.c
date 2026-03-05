@@ -19,6 +19,27 @@ int main (){
     printf("\n the value of the float  is %f", pi);
     printf("\nThe sum of a and b is %d", a+b);
     
+    //getting the input from the user
+int x,y,sums,product,divide ;
+
+sums= x + y;
+product =x*y;
+divide = x/y;
+printf("\n Enter the values of X:");
+scanf("%d", &x);
+
+printf("\n Enter the values of y:");
+scanf("%d", &y);
+ printf("the sum of x and y is %d", x+y);
+ printf("\n the divide of x and y is %d", x/y);
+ printf("\n the multiplication of x and y is %d", x*y);
+
+
+
+
+
+
+
     return 0;
 
 
