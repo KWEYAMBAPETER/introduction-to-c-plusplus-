@@ -1024,7 +1024,7 @@ public:
         });
     }
     
-    future<bool> returnBookAsync(int memberId, const string& isbn) {
+    future<bool> returnBookAsync(int memberId, const string& isbn){
         return async(launch::async, [this, memberId, isbn]() {
             try {
                 return this->returnBook(memberId, isbn);
@@ -1037,7 +1037,7 @@ public:
     
     // Statistics
     void displayStatistics() {
-        lock_guard<mutex> lock(libraryMutex);
+        lock_guard <mutex> lock(libraryMutex);
         
         cout << "\n=== Library Statistics ===" << endl;
         

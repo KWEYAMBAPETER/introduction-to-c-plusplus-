@@ -31,7 +31,7 @@ scanf("%d", &x);
 printf("\n Enter the values of y:");
 scanf("%d", &y);
  printf("the sum of x and y is %d", x+y);
- printf("\n the divide of x and y is %d", x/y);
+ printf("\n the divide of x and y is %d", x/y);//why is it that when i divide improper fraction I don't get a remender??
  printf("\n the multiplication of x and y is %d", x*y);
 
 
